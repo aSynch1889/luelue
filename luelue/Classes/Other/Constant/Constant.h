@@ -9,5 +9,6 @@
 #ifndef Constant_h
 #define Constant_h
 
-
+#import "UIConstant.h"
+#import "GlobalNotificationConstant.h"
 #endif /* Constant_h */

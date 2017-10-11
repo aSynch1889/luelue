@@ -1,0 +1,9 @@
+{
+  "commitish" : "3.0.13",
+  "iOS" : [
+    {
+      "hash" : "91b44414c12fd2a6fde8d7dfb5e42711863818cbddfbe35ebf155b9ef43aa402",
+      "name" : "MJExtension"
+    }
+  ]
+}

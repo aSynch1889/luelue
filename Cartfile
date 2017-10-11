@@ -1,0 +1,6 @@
+github "AFNetworking/AFNetworking"
+github "SnapKit/Masonry"
+github "CoderMJLee/MJRefresh"
+github "jdg/MBProgressHUD"
+github "mwaterfall/MWPhotoBrowser"
+github "CoderMJLee/MJExtension"

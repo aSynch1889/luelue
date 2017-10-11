@@ -8,30 +8,42 @@
 
 #import "LLNavigationViewController.h"
 
-@interface LLNavigationViewController ()
-
-@end
-
 @implementation LLNavigationViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
++ (void)initialize
+{
+    // 设置导航栏背景色
+    UINavigationBar *nav = [UINavigationBar appearance];
+    nav.barTintColor = LLNavBgColor;
+    nav.tintColor = [UIColor whiteColor];
+
+    [nav setShadowImage:[UIImage new]];
+    
+    // 设置导航栏字体颜色
+    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+    attrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    attrs[NSFontAttributeName] = [UIFont systemFontOfSize:18];
+    [nav setTitleTextAttributes:attrs];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/**
+ * 可以在这个方法中拦截所有push进来的控制器
+ */
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    // 如果push进来的不是第一个控制器就隐藏tabbar
+    if (self.childViewControllers.count > 0)
+    {
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+    
+    // 设置导航栏返回按钮的title为空
+    viewController.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:0 target:nil action:NULL];
+    
+    [super pushViewController:viewController animated:animated];
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

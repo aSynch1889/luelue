@@ -1,0 +1,6 @@
+github "AFNetworking/AFNetworking" "3.1.0"
+github "CoderMJLee/MJExtension" "3.0.13"
+github "CoderMJLee/MJRefresh" "3.1.14"
+github "SnapKit/Masonry" "v1.1.0"
+github "jdg/MBProgressHUD" "1.0.0"
+github "mwaterfall/MWPhotoBrowser" "2.1.2"
