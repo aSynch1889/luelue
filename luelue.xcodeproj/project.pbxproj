@@ -17,6 +17,8 @@
 		00661B6B1F8FBE500070DB52 /* LLRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B691F8FBE500070DB52 /* LLRegisterViewController.xib */; };
 		00661B721F8FC8A00070DB52 /* LLChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B701F8FC8A00070DB52 /* LLChangePasswordViewController.m */; };
 		00661B731F8FC8A00070DB52 /* LLChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B711F8FC8A00070DB52 /* LLChangePasswordViewController.xib */; };
+		00661B771F8FD7E50070DB52 /* LLDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B751F8FD7E50070DB52 /* LLDataTableViewCell.m */; };
+		00661B781F8FD7E50070DB52 /* LLDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B761F8FD7E50070DB52 /* LLDataTableViewCell.xib */; };
 		00A4460F1F8E2B98000253B6 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A4460E1F8E2B98000253B6 /* ChatListViewController.m */; };
 		00A446161F8E52C9000253B6 /* LLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A446151F8E52C9000253B6 /* LLTabBarViewController.m */; };
 		00A446191F8E52EA000253B6 /* LLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A446181F8E52EA000253B6 /* LLNavigationViewController.m */; };
@@ -108,6 +110,9 @@
 		00661B6F1F8FC8A00070DB52 /* LLChangePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChangePasswordViewController.h; sourceTree = "<group>"; };
 		00661B701F8FC8A00070DB52 /* LLChangePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChangePasswordViewController.m; sourceTree = "<group>"; };
 		00661B711F8FC8A00070DB52 /* LLChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLChangePasswordViewController.xib; sourceTree = "<group>"; };
+		00661B741F8FD7E50070DB52 /* LLDataTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDataTableViewCell.h; sourceTree = "<group>"; };
+		00661B751F8FD7E50070DB52 /* LLDataTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDataTableViewCell.m; sourceTree = "<group>"; };
+		00661B761F8FD7E50070DB52 /* LLDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLDataTableViewCell.xib; sourceTree = "<group>"; };
 		00A4460D1F8E2B98000253B6 /* ChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
 		00A4460E1F8E2B98000253B6 /* ChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
 		00A446141F8E52C9000253B6 /* LLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTabBarViewController.h; sourceTree = "<group>"; };
@@ -478,6 +483,9 @@
 		00A446381F8E5867000253B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00661B741F8FD7E50070DB52 /* LLDataTableViewCell.h */,
+				00661B751F8FD7E50070DB52 /* LLDataTableViewCell.m */,
+				00661B761F8FD7E50070DB52 /* LLDataTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -824,6 +832,7 @@
 			files = (
 				00661B5A1F8FB8930070DB52 /* LLMessageViewController.xib in Resources */,
 				00ADA4111F8DF2B9001990E6 /* release_notes_ios.txt in Resources */,
+				00661B781F8FD7E50070DB52 /* LLDataTableViewCell.xib in Resources */,
 				00661B581F8FB8020070DB52 /* LLMeViewController.xib in Resources */,
 				00661B561F8FB3FC0070DB52 /* LLHomeViewController.xib in Resources */,
 				00ADA40A1F8DF2B9001990E6 /* Emoji.plist in Resources */,
@@ -884,6 +893,7 @@
 				00A4462E1F8E57D0000253B6 /* LLMessageViewController.m in Sources */,
 				00661B6A1F8FBE500070DB52 /* LLRegisterViewController.m in Sources */,
 				00A446351F8E583A000253B6 /* LLMeViewController.m in Sources */,
+				00661B771F8FD7E50070DB52 /* LLDataTableViewCell.m in Sources */,
 				00A446481F8E5F03000253B6 /* LLTopWindowViewController.m in Sources */,
 				00A446401F8E5AC5000253B6 /* UIImage+LLExtension.m in Sources */,
 				00661B721F8FC8A00070DB52 /* LLChangePasswordViewController.m in Sources */,

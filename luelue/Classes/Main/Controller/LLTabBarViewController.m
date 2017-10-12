@@ -45,7 +45,7 @@
     _messageVC = [[LLMessageViewController alloc] initWithNibName:@"LLMessageViewController" bundle:[NSBundle mainBundle]];
     [self setupChildVc:_messageVC title:@"消息" image:@"message_normal" selectedImage:@"message_selected"];
     
-    [self setupChildVc:[[LLDataViewController alloc] initWithNibName:@"LLDataViewController" bundle:[NSBundle mainBundle]] title:@"数据" image:@"find_normal" selectedImage:@"find_selected"];
+    [self setupChildVc:[[LLDataViewController alloc] initWithNibName:@"LLDataViewController" bundle:[NSBundle mainBundle]] title:@"数据" image:@"data_normal" selectedImage:@"data_selected"];
     
     [self setupChildVc:[[LLMeViewController alloc] initWithNibName:@"LLMeViewController" bundle:[NSBundle mainBundle]] title:@"我的" image:@"me_normal" selectedImage:@"me_selected"];
     
