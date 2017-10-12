@@ -48,7 +48,7 @@ green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 // 全局
-#define LLNavBgColor LLRGB(34, 172, 57)
+#define LLNavBgColor LLRGB(255, 48, 48)
 #define LLMainlColor LLRGB(51,199,116) // 全局主色调
 #define LLMainlColorFrosted LLMainlColor  // 磨砂效果
 #define LLBackgroundColor LLRGB(242,242,242) //全局背景色
@@ -86,8 +86,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 // UITabBar
 #define kTabBarItemFontSize LLFontSize(12.0)
-#define kTabBarItemFontColorNormal LLRGBACOLOR(165, 165, 171, 1)
-#define kTabBarItemFontColorSelected LLRGBACOLOR(47, 192, 97, 1)
+#define kTabBarItemFontColorNormal LLRGBACOLOR(255, 165, 171, 1)
+#define kTabBarItemFontColorSelected LLRGBACOLOR(255, 48, 48, 1)
 
 // 键盘
 #define kKeyboardToolBarHeight 44.0 // 键盘辅助工具条

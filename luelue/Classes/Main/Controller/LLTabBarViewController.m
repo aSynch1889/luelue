@@ -7,7 +7,7 @@
 //
 
 #import "LLTabBarViewController.h"
-#import "LLHomeViewController.h";
+#import "LLHomeViewController.h"
 #import "LLMessageViewController.h"
 #import "LLDataViewController.h"
 #import "LLMeViewController.h"
@@ -40,14 +40,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // 添加子控制器
-    [self setupChildVc:[[LLHomeViewController alloc] init] title:@"首页" image:@"home_normal" selectedImage:@"home_selected"];
+    [self setupChildVc:[[LLHomeViewController alloc] initWithNibName:@"LLHomeViewController" bundle:[NSBundle mainBundle]] title:@"首页" image:@"home_normal" selectedImage:@"home_selected"];
     
-    _messageVC = [[LLMessageViewController alloc] init];
+    _messageVC = [[LLMessageViewController alloc] initWithNibName:@"LLMessageViewController" bundle:[NSBundle mainBundle]];
     [self setupChildVc:_messageVC title:@"消息" image:@"message_normal" selectedImage:@"message_selected"];
     
-    [self setupChildVc:[[LLDataViewController alloc] init] title:@"数据" image:@"find_normal" selectedImage:@"find_selected"];
+    [self setupChildVc:[[LLDataViewController alloc] initWithNibName:@"LLDataViewController" bundle:[NSBundle mainBundle]] title:@"数据" image:@"find_normal" selectedImage:@"find_selected"];
     
-    [self setupChildVc:[[LLMeViewController alloc] init] title:@"我的" image:@"me_normal" selectedImage:@"me_selected"];
+    [self setupChildVc:[[LLMeViewController alloc] initWithNibName:@"LLMeViewController" bundle:[NSBundle mainBundle]] title:@"我的" image:@"me_normal" selectedImage:@"me_selected"];
     
 }
 
