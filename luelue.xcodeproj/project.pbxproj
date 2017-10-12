@@ -11,6 +11,12 @@
 		00661B581F8FB8020070DB52 /* LLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B571F8FB8020070DB52 /* LLMeViewController.xib */; };
 		00661B5A1F8FB8930070DB52 /* LLMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B591F8FB8930070DB52 /* LLMessageViewController.xib */; };
 		00661B5C1F8FB8F00070DB52 /* LLDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B5B1F8FB8F00070DB52 /* LLDataViewController.xib */; };
+		00661B641F8FBDF80070DB52 /* LLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B621F8FBDF80070DB52 /* LLLoginViewController.m */; };
+		00661B651F8FBDF80070DB52 /* LLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B631F8FBDF80070DB52 /* LLLoginViewController.xib */; };
+		00661B6A1F8FBE500070DB52 /* LLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B681F8FBE500070DB52 /* LLRegisterViewController.m */; };
+		00661B6B1F8FBE500070DB52 /* LLRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B691F8FBE500070DB52 /* LLRegisterViewController.xib */; };
+		00661B721F8FC8A00070DB52 /* LLChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B701F8FC8A00070DB52 /* LLChangePasswordViewController.m */; };
+		00661B731F8FC8A00070DB52 /* LLChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B711F8FC8A00070DB52 /* LLChangePasswordViewController.xib */; };
 		00A4460F1F8E2B98000253B6 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A4460E1F8E2B98000253B6 /* ChatListViewController.m */; };
 		00A446161F8E52C9000253B6 /* LLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A446151F8E52C9000253B6 /* LLTabBarViewController.m */; };
 		00A446191F8E52EA000253B6 /* LLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A446181F8E52EA000253B6 /* LLNavigationViewController.m */; };
@@ -93,6 +99,15 @@
 		00661B571F8FB8020070DB52 /* LLMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLMeViewController.xib; sourceTree = "<group>"; };
 		00661B591F8FB8930070DB52 /* LLMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLMessageViewController.xib; sourceTree = "<group>"; };
 		00661B5B1F8FB8F00070DB52 /* LLDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLDataViewController.xib; sourceTree = "<group>"; };
+		00661B611F8FBDF80070DB52 /* LLLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLLoginViewController.h; sourceTree = "<group>"; };
+		00661B621F8FBDF80070DB52 /* LLLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLLoginViewController.m; sourceTree = "<group>"; };
+		00661B631F8FBDF80070DB52 /* LLLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLLoginViewController.xib; sourceTree = "<group>"; };
+		00661B671F8FBE500070DB52 /* LLRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLRegisterViewController.h; sourceTree = "<group>"; };
+		00661B681F8FBE500070DB52 /* LLRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRegisterViewController.m; sourceTree = "<group>"; };
+		00661B691F8FBE500070DB52 /* LLRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLRegisterViewController.xib; sourceTree = "<group>"; };
+		00661B6F1F8FC8A00070DB52 /* LLChangePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChangePasswordViewController.h; sourceTree = "<group>"; };
+		00661B701F8FC8A00070DB52 /* LLChangePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChangePasswordViewController.m; sourceTree = "<group>"; };
+		00661B711F8FC8A00070DB52 /* LLChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLChangePasswordViewController.xib; sourceTree = "<group>"; };
 		00A4460D1F8E2B98000253B6 /* ChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
 		00A4460E1F8E2B98000253B6 /* ChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
 		00A446141F8E52C9000253B6 /* LLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTabBarViewController.h; sourceTree = "<group>"; };
@@ -238,6 +253,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00661B5D1F8FBD990070DB52 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				00661B6D1F8FC87B0070DB52 /* ChangePassword */,
+				00661B601F8FBDC50070DB52 /* ForgetPassword */,
+				00661B5F1F8FBDB60070DB52 /* Register */,
+				00661B5E1F8FBDAF0070DB52 /* Login */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		00661B5E1F8FBDAF0070DB52 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				00661B6C1F8FBE550070DB52 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		00661B5F1F8FBDB60070DB52 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				00661B661F8FBE3B0070DB52 /* Controller */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		00661B601F8FBDC50070DB52 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		00661B661F8FBE3B0070DB52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00661B671F8FBE500070DB52 /* LLRegisterViewController.h */,
+				00661B681F8FBE500070DB52 /* LLRegisterViewController.m */,
+				00661B691F8FBE500070DB52 /* LLRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00661B6C1F8FBE550070DB52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00661B611F8FBDF80070DB52 /* LLLoginViewController.h */,
+				00661B621F8FBDF80070DB52 /* LLLoginViewController.m */,
+				00661B631F8FBDF80070DB52 /* LLLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00661B6D1F8FC87B0070DB52 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				00661B6E1F8FC8880070DB52 /* Controller */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		00661B6E1F8FC8880070DB52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00661B6F1F8FC8A00070DB52 /* LLChangePasswordViewController.h */,
+				00661B701F8FC8A00070DB52 /* LLChangePasswordViewController.m */,
+				00661B711F8FC8A00070DB52 /* LLChangePasswordViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		00A446121F8E528F000253B6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +625,7 @@
 		00ADA3A71F8DD6A1001990E6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				00661B5D1F8FBD990070DB52 /* UserCenter */,
 				00ADA3A81F8DD6CD001990E6 /* Home */,
 				00A446411F8E5E7E000253B6 /* Commom */,
 				00A446361F8E5857000253B6 /* Data */,
@@ -741,9 +829,12 @@
 				00ADA40A1F8DF2B9001990E6 /* Emoji.plist in Resources */,
 				00ADA3731F8DCB09001990E6 /* LaunchScreen.storyboard in Resources */,
 				00ADA40F1F8DF2B9001990E6 /* RCConfig.plist in Resources */,
+				00661B731F8FC8A00070DB52 /* LLChangePasswordViewController.xib in Resources */,
+				00661B6B1F8FBE500070DB52 /* LLRegisterViewController.xib in Resources */,
 				00661B5C1F8FB8F00070DB52 /* LLDataViewController.xib in Resources */,
 				00ADA40B1F8DF2B9001990E6 /* RongCloudKit.strings in Resources */,
 				00ADA3701F8DCB09001990E6 /* Assets.xcassets in Resources */,
+				00661B651F8FBDF80070DB52 /* LLLoginViewController.xib in Resources */,
 				00ADA40C1F8DF2B9001990E6 /* RongCloud.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -791,9 +882,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A4462E1F8E57D0000253B6 /* LLMessageViewController.m in Sources */,
+				00661B6A1F8FBE500070DB52 /* LLRegisterViewController.m in Sources */,
 				00A446351F8E583A000253B6 /* LLMeViewController.m in Sources */,
 				00A446481F8E5F03000253B6 /* LLTopWindowViewController.m in Sources */,
 				00A446401F8E5AC5000253B6 /* UIImage+LLExtension.m in Sources */,
+				00661B721F8FC8A00070DB52 /* LLChangePasswordViewController.m in Sources */,
 				00A4463C1F8E5880000253B6 /* LLDataViewController.m in Sources */,
 				00ADA36B1F8DCB09001990E6 /* ViewController.m in Sources */,
 				00A4464E1F8E60F3000253B6 /* UIView+LLExtension.m in Sources */,
@@ -803,6 +896,7 @@
 				00A446191F8E52EA000253B6 /* LLNavigationViewController.m in Sources */,
 				00A446281F8E5783000253B6 /* LLHomeViewController.m in Sources */,
 				00A4464B1F8E5F6F000253B6 /* LLStatusBarWidow.m in Sources */,
+				00661B641F8FBDF80070DB52 /* LLLoginViewController.m in Sources */,
 				00ADA3681F8DCB09001990E6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -966,7 +1060,6 @@
 		00ADA3901F8DCB09001990E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22BJT4P63S;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -982,7 +1075,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/luelue/PrefixHeader.pch";
 				INFOPLIST_FILE = luelue/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -997,7 +1090,6 @@
 		00ADA3911F8DCB09001990E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22BJT4P63S;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1013,7 +1105,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/luelue/PrefixHeader.pch";
 				INFOPLIST_FILE = luelue/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
