@@ -23,6 +23,10 @@
 		00661B801F8FE3A80070DB52 /* LLOperationInfoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B7E1F8FE3A80070DB52 /* LLOperationInfoTableViewController.xib */; };
 		00661B841F8FE3F50070DB52 /* LLBusinessInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B821F8FE3F50070DB52 /* LLBusinessInfoTableViewController.m */; };
 		00661B851F8FE3F50070DB52 /* LLBusinessInfoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B831F8FE3F50070DB52 /* LLBusinessInfoTableViewController.xib */; };
+		00661B8B1F8FE57A0070DB52 /* LLPurchaseIDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B891F8FE57A0070DB52 /* LLPurchaseIDTableViewController.m */; };
+		00661B8C1F8FE57A0070DB52 /* LLPurchaseIDTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B8A1F8FE57A0070DB52 /* LLPurchaseIDTableViewController.xib */; };
+		00661B911F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00661B8F1F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.m */; };
+		00661B921F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00661B901F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.xib */; };
 		00A4460F1F8E2B98000253B6 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A4460E1F8E2B98000253B6 /* ChatListViewController.m */; };
 		00A446161F8E52C9000253B6 /* LLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A446151F8E52C9000253B6 /* LLTabBarViewController.m */; };
 		00A446191F8E52EA000253B6 /* LLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A446181F8E52EA000253B6 /* LLNavigationViewController.m */; };
@@ -123,6 +127,12 @@
 		00661B811F8FE3F50070DB52 /* LLBusinessInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBusinessInfoTableViewController.h; sourceTree = "<group>"; };
 		00661B821F8FE3F50070DB52 /* LLBusinessInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLBusinessInfoTableViewController.m; sourceTree = "<group>"; };
 		00661B831F8FE3F50070DB52 /* LLBusinessInfoTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLBusinessInfoTableViewController.xib; sourceTree = "<group>"; };
+		00661B881F8FE57A0070DB52 /* LLPurchaseIDTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPurchaseIDTableViewController.h; sourceTree = "<group>"; };
+		00661B891F8FE57A0070DB52 /* LLPurchaseIDTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPurchaseIDTableViewController.m; sourceTree = "<group>"; };
+		00661B8A1F8FE57A0070DB52 /* LLPurchaseIDTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLPurchaseIDTableViewController.xib; sourceTree = "<group>"; };
+		00661B8E1F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPurchaseIDTableViewCell.h; sourceTree = "<group>"; };
+		00661B8F1F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPurchaseIDTableViewCell.m; sourceTree = "<group>"; };
+		00661B901F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLPurchaseIDTableViewCell.xib; sourceTree = "<group>"; };
 		00A4460D1F8E2B98000253B6 /* ChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
 		00A4460E1F8E2B98000253B6 /* ChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
 		00A446141F8E52C9000253B6 /* LLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTabBarViewController.h; sourceTree = "<group>"; };
@@ -369,6 +379,35 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		00661B861F8FE5390070DB52 /* purchaseID(进货单) */ = {
+			isa = PBXGroup;
+			children = (
+				00661B8D1F8FE5AE0070DB52 /* View */,
+				00661B871F8FE5600070DB52 /* Controller */,
+			);
+			path = "purchaseID(进货单)";
+			sourceTree = "<group>";
+		};
+		00661B871F8FE5600070DB52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00661B881F8FE57A0070DB52 /* LLPurchaseIDTableViewController.h */,
+				00661B891F8FE57A0070DB52 /* LLPurchaseIDTableViewController.m */,
+				00661B8A1F8FE57A0070DB52 /* LLPurchaseIDTableViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00661B8D1F8FE5AE0070DB52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00661B8E1F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.h */,
+				00661B8F1F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.m */,
+				00661B901F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		00A446121F8E528F000253B6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,6 +474,7 @@
 		00A446251F8E575D000253B6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				00661B861F8FE5390070DB52 /* purchaseID(进货单) */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -877,10 +917,12 @@
 				00661B801F8FE3A80070DB52 /* LLOperationInfoTableViewController.xib in Resources */,
 				00661B581F8FB8020070DB52 /* LLMeViewController.xib in Resources */,
 				00661B561F8FB3FC0070DB52 /* LLHomeViewController.xib in Resources */,
+				00661B921F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.xib in Resources */,
 				00ADA40A1F8DF2B9001990E6 /* Emoji.plist in Resources */,
 				00ADA3731F8DCB09001990E6 /* LaunchScreen.storyboard in Resources */,
 				00ADA40F1F8DF2B9001990E6 /* RCConfig.plist in Resources */,
 				00661B731F8FC8A00070DB52 /* LLChangePasswordViewController.xib in Resources */,
+				00661B8C1F8FE57A0070DB52 /* LLPurchaseIDTableViewController.xib in Resources */,
 				00661B6B1F8FBE500070DB52 /* LLRegisterViewController.xib in Resources */,
 				00661B5C1F8FB8F00070DB52 /* LLDataViewController.xib in Resources */,
 				00ADA40B1F8DF2B9001990E6 /* RongCloudKit.strings in Resources */,
@@ -949,7 +991,9 @@
 				00A446191F8E52EA000253B6 /* LLNavigationViewController.m in Sources */,
 				00A446281F8E5783000253B6 /* LLHomeViewController.m in Sources */,
 				00A4464B1F8E5F6F000253B6 /* LLStatusBarWidow.m in Sources */,
+				00661B911F8FE5CF0070DB52 /* LLPurchaseIDTableViewCell.m in Sources */,
 				00661B841F8FE3F50070DB52 /* LLBusinessInfoTableViewController.m in Sources */,
+				00661B8B1F8FE57A0070DB52 /* LLPurchaseIDTableViewController.m in Sources */,
 				00661B641F8FBDF80070DB52 /* LLLoginViewController.m in Sources */,
 				00ADA3681F8DCB09001990E6 /* AppDelegate.m in Sources */,
 			);
