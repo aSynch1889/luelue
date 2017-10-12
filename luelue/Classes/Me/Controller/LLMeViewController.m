@@ -7,6 +7,7 @@
 //
 
 #import "LLMeViewController.h"
+#import "LLOperationInfoTableViewController.h"
 
 @interface LLMeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *meTableView;
@@ -67,5 +68,30 @@
     
     return 3;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    //点击数据行查看详情
+    if (indexPath.section == 0) {
+        
+    }else if (indexPath.section == 1){
+        if (indexPath.row == 0) {
+            LLOperationInfoTableViewController *operationInfoTableView = [[LLOperationInfoTableViewController alloc] init];
+            [self.navigationController pushViewController:operationInfoTableView animated:YES];
+            
+        }else if (indexPath.row == 1) {
+            
+        }else if (indexPath.row == 2) {
+            
+        }else if (indexPath.row == 3) {
+            
+        }else if (indexPath.row == 4) {
+            
+        }
+        
+    }else if (indexPath.section == 2) {
+        
+    }
+}
+
 
 @end
